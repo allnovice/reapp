@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
+
 function App() {
   // 1. Keep track of which endpoint path we want to view
   const [currentTab, setCurrentTab] = useState<string>('/api/profile');
