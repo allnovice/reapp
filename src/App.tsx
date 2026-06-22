@@ -15,7 +15,7 @@ function App() {
     setError(null);
 
     // CHANGE THIS TO YOUR VM 201 IP ADDRESS
-    fetch(`http://192.168.100.94${currentTab}`)
+    fetch(`http://100.68.135.118${currentTab}`)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP Error! Status: ${response.status}`);
         return response.json();
